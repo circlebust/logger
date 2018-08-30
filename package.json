@@ -1,0 +1,28 @@
+{
+  "name": "logger",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "npm run-script build:rollup",
+    "build:rollup": "rollup -c"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "src/"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "fancy-log": "latest"
+  },
+  "devDependencies": {
+    "@types/fancy-log": "latest"
+  },
+  "private": true,
+  "author": "Jonas Moudi",
+  "license": "MIT"
+}
